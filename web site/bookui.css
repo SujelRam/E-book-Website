@@ -1,0 +1,87 @@
+body{
+    background-color: #e9e2cf;
+}
+*{
+   margin: 0;
+   padding: 0;
+   font-family: arial;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   -webkit-text-fill-color: black;
+}
+main{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main #image{
+    width: 100%;
+    height: 300px;
+    background: url(bg\ animate.gif);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px 10px 10px rgba(0,0,0,.2);
+    position: absolute;
+     top: 0px;
+     left: 0px;
+     right: 0px;
+}
+main #image form #top{
+    position: absolute;
+       top: 30px;
+       left: 1280px;
+}
+.t1{
+    padding-right: 30px;
+    -webkit-text-fill-color: #fff;
+}
+main #image form #Search{
+    width: 30rem;
+    padding: .9rem;
+    height: 3rem;
+    letter-spacing: 2px;
+    background: #dad6d6b0;
+    border-radius: 12px;
+}
+#Search::placeholder{
+    color: rgb(49, 46, 46);
+}
+main .container{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    position: relative;
+      top:310px;
+}
+main .container>div{
+    background-color: #fff;
+    padding: .5rem;
+    box-shadow: 2px 2px 10px 10px rgba(0,0,0,.1);
+}
+main .container>div>img{
+    width: 150px;
+    height: 180px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+main footer{
+    width: 100%;
+    height: 200px;
+    background: url(bg\ animate.gif);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 10px 15px 10px rgba(0,0,0,.5);
+    position: absolute;
+     top: 1300px;
+     left: 0px;
+     right: 0px;
+     bottom: 0px;
+}
