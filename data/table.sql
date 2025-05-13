@@ -1,8 +1,0 @@
-CREATE TABLE Products (
-    Serial_Number INT PRIMARY KEY AUTO_INCREMENT,
-    Brand VARCHAR(50) NOT NULL,
-    Model VARCHAR(50) NOT NULL,
-    Rate DECIMAL(10, 2) NOT NULL,
-    Launched_Year YEAR NOT NULL,
-    Status VARCHAR(20) NOT NULL
-);
